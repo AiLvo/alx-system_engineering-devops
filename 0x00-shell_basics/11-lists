@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alD .; (cd .. && ls -alD .); (cd /boot && ls -alD .)
+ls -al; (cd ..; ls -al); (cd /boot; ls -al)
