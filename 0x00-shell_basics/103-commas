@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1ap | sort -df --ignore-case | sed '1s/^/..,\n.,/' | tr '\n' ','
