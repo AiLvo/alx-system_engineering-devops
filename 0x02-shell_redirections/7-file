@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "Best School\n" | dd of='*\\'"Best School"'\\*$?*****:)' bs=1
+echo "Best School" > '*\\'"Best School"'\\*\$\?\*\*\*\*\*:)'
